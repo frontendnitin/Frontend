@@ -1,0 +1,31 @@
+
+main{
+    margin: 100px;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.avatar{
+    
+    width: 200px;
+    border:7px  purple;
+    border: 4px z white;
+}
+.card{
+    display: flex;
+    justify-content:space-around;
+    padding:20px;
+    width:550px;
+    margin:auto;
+    text-align:center; 
+    background:black;
+    color:whitesmoke; 
+    border : 15px groove purple;
+    border-radius:10px;
+    font-size:20px;
+    font : italic;
+}
+.text{
+    border:5px  purple;
+    border: 4px groove purple ;
+}
+

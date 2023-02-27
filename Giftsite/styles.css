@@ -1,7 +1,7 @@
 body {
     text-align: center;
     font-family: 'Happy Monkey', cursive;
-    background:linear-gradient(#a2d2ff, #EFB0C9);
+    background:linear-gradient(skyblue, #EFB0C9);
     color:#ffffff;
 }
 h1, h2, h4 {
@@ -46,7 +46,6 @@ h1, h2, h4 {
   
 .gift-img{
     margin:0 auto;
-    background: linear-gradient(lightskyblue,white);
     background-image: url(images/list2.jpg);
     height:30rem;
     width:30rem;

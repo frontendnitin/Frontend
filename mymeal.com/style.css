@@ -1,0 +1,239 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+#logo{
+    margin: 10px 35px;
+}
+
+#logo img{
+    height:80px;
+    width: 80px;
+    border-radius:40px;
+    margin: 3px 5px;
+}
+
+
+#navbar{
+    display: flex;
+    align-items: center;
+    position:sticky; 
+    font-family: 'Caprasimo', cursive ;
+    top :0px;
+}
+
+ #navbar ul{
+    display: flex;
+    
+}
+
+#navbar::before{
+    content:"   ";
+    background-color: black;
+    position:absolute;
+    top:0px;
+    left:0px;
+    height:100%;
+    width:100%;
+    z-index: -1;
+    opacity: 0.7;
+}
+
+#navbar ul li{
+    list-style:none;
+    font-size:1.3rem;
+    /* padding:3px 22px; */
+}
+
+#navbar ul li a{
+    color:white;
+    text-decoration: none;
+    cursor: pointer;
+    display: block;
+    padding:3px 22px;
+    border-radius:20px;
+
+}
+
+#navbar ul li a:hover{
+    color:black;
+    background-color: white;
+   
+}
+
+#Home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3px 200px ;
+    height:534px;
+    color: #fff;
+}
+
+#Home::before{
+    content:"";
+    background: url(images/foodtable.jpg) no-repeat center center/cover;
+    position:absolute;
+    top:0px;
+    left:0px;
+    height:635px;
+    width:100%;
+    z-index: -1;
+    opacity: 0.89;
+}
+
+.text{
+    font-size: 2.8rem;
+    color:white;
+    font-family: 'Bree Serif', serif;
+    font-weight: bold;
+    text-align: center;
+}
+#Home p{
+    
+    font-family: 'Bree Serif', serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+#btn{
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 700;
+    margin: 20px;
+    padding:6px 10px;
+    background-color: brown;
+    border:2px solid black;
+    border-radius:10px;
+    cursor: pointer;
+}
+
+
+.container{
+    margin: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.all-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:2rem;
+}
+#title{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#title{
+    font-size: 2.8rem;
+}
+
+
+.box{
+    
+    height:380px;
+    width:31%;
+    background-color:#f2f2f2;
+    border:2px solid brown;
+    border-radius:28px;
+    padding: 20px 7px 15px;
+    margin:3px 6px ;
+
+}
+
+.box-content{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.box img {
+    display: block;
+    margin:auto;
+    height:200px;
+    width: 220px;
+    border-radius: 30px;
+}
+
+
+.word{
+    display: block;
+    text-align: center;
+    font-family: 'Bree Serif', serif;
+}
+
+.word h3{
+    padding-top:15px;
+    padding-bottom: 20px;
+    font-size: 1.5rem;
+}
+.word p {
+    font-size: 1rem;
+}
+#client-section{
+    background: url(images/client-back.png)  ;
+    height:256px;
+    margin-top:0rem;
+}
+
+.client{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.client-item{
+    padding: 34px;
+}
+
+.client-item img{
+    height:100px;
+    width:100px;
+}
+
+#contact{
+    background: url(images/contact.jpg);
+    height:100%;
+    background-size:cover ;   
+}
+
+.form-contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    font-family: 'Bree Serif', serif;
+    margin-right:10rem;
+}
+
+.form-contact input,
+.form-contact textarea { 
+    width:150%;
+    padding:0.5rem;
+    font-size: 1.1rem;
+    border-radius:8px;
+}
+
+.form-contact label{
+    font-size:1.3rem;
+}
+
+footer{
+    background-color: black;
+    color:white;
+}
+
+#pannel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

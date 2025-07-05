@@ -1,0 +1,15 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+
+  /* border: 1px solid; */
+}
+
+/* index.css or App.css */
+body {
+  margin: 0;
+  font-family: "Amazon Ember", Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
